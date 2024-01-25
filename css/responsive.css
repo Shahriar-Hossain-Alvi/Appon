@@ -85,6 +85,7 @@
 
     #banner .banner-right-text h3::after {
         left: 0;
+        bottom: 130px;
     }
 
     #banner .banner-right-text {
@@ -117,6 +118,7 @@
 
     #banner .banner-buttons .ios-btn {
         background: #f1f1f1;
+        margin-left: 0;
     }
 
     #banner .banner-buttons .ios-btn i {
@@ -129,6 +131,10 @@
 
     #banner .banner-buttons .ios-btn h6 {
         color: #353535;
+    }
+
+    #banner .banner-buttons a {
+        padding: 6px;
     }
 
     #banner .banner-buttons .android-btn:hover {
@@ -181,7 +187,7 @@
 
     #feature .feature-text i {
         float: left;
-        padding-left: 80px;
+        padding-left: 0px;
     }
 
     #feature .feature-text-last {
@@ -230,6 +236,17 @@
         -o-transform: perspective(0) rotateY(0) scale(0.0) translateX(-0);
     }
 
+    #screenshot .slick-dots {
+        display: flex;
+        bottom: -100px;
+        padding-left: 0;
+
+    }
+
+    .slick-initialized .slick-slide {
+        padding: 0 5px;
+    }
+
 
     /* video part start */
 
@@ -238,25 +255,39 @@
         margin-bottom: 70px;
     }
 
+    #video .video-bg {
+        padding-top: 100px;
+        padding-bottom: 90px;
+    }
+
     /* price part start */
     #price {
         padding-bottom: 60px;
     }
 
     #price .plan-circle-text {
-        margin-left: 47px;
+        margin: 0 auto;
+        height: 110px;
     }
 
     #price .plan-item {
-        margin-bottom: 35px;
+        margin-bottom: 60px;
     }
 
     #price .plan-head h2 {
         color: #ffffff;
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: capitalize;
     }
 
     #price .plan-head {
         background: #744fa0;
+    }
+
+    #price .plan-list {
+        padding-top: 10px;
+        padding-bottom: 30px;
     }
 
     #price .plan-button {
@@ -276,6 +307,8 @@
 
     #team .team-overlay {
         opacity: 1;
+        height: 25%;
+        top: 75%;
     }
 
     #team .team-text h4 {
@@ -317,6 +350,8 @@
     #team .team-text {
         border: 1px solid #cccccc;
         border-top: 0;
+        padding-left: 2px;
+        padding-right: 2px;
     }
 
     #team .team-icon i {
